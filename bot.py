@@ -6,7 +6,7 @@ from google.genai.errors import APIError
 # This line initializes the client directly using the API key you provided.
 # NOTE: Replace 'YOUR_API_KEY_HERE' if you change your key later.
 # For security, storing keys in a file is usually discouraged, but this is the fastest way to test.
-client = genai.Client(api_key="AIzaSyA3od_eXZ7uFih68jk51emWQDmUOBStuss")
+client = genai.Client(api_key="API_KEY_HERE")
 
 def generate_educational_content(prompt_text: str):
     """
